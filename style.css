@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e0b1ff;
+    font-size: 12px;
+    overflow: auto;
+}
+
+@font-face {
+    font-family: digit;
+    src: url('digital.ttf') format("truetype");
+}
+
+h1 {
+    float: left;
+    width: 740px;
+    margin-top: 160px !important;
+    margin-left: 160px;
+    height: 400px;
+    color: #333;
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+    font-size: 22px
+}
+
+#teste {
+    margin-top: 160px;
+    float: right;
+    margin-right: 350px;
+}
+
+.pulse {
+    animation: pulse 0.7s infinite;
+    
+    margin-top: 50px;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      -webkit-filter: brightness(200%);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(200%);
+    }
+  }
+
+button {
+    margin-top: 40%;
+    margin-right: 20px;
+    width: 150px;
+    height: 90px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    font-size: 32px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #a51eff;
+  }
