@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             " ",
             " ",
             " ",
-            "EU TE AMO <3"],
+            "<3"],
         loop: false
     }).go()
 })
