@@ -4,6 +4,7 @@ body {
     background: #e0b1ff;
     font-size: 12px;
     overflow: auto;
+    cursor: url(img/coraçao.png),default;
 }
 
 @font-face {
@@ -67,7 +68,7 @@ button {
     border: 2px solid transparent;
     border-radius: 15px;
     font-size: 32px;
-    cursor: pointer;
+    cursor: url(img/urso.png), pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
